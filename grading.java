@@ -1,13 +1,9 @@
 import java.util.*;
 
 public class grading {
-    // class FullName {
-    //     String FirstName;
-    //     String LastName;
-    // }
+    
 
     private ArrayList<String> student = new ArrayList<>();
-    private char[] studentgrades = { 'A', 'B', 'C', 'D', 'F' };
     private double[][] studenttestscores;
     
     public String getname(int i) {
